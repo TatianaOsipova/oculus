@@ -68,5 +68,23 @@ body {
   gap: 0 20px;
 }
 
+.basket{
+  position: relative;
+}
+
+.basket--on span{
+  font-size: 11px;
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  right: -2px;
+}
 
 /* styling header end */
