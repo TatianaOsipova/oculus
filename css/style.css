@@ -44,6 +44,29 @@ body {
   color: #5c5c5e;
 }
 
+.container{
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+/* styling header start */
+
+.header {
+  border-bottom: 1px solid #cacad6;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.menu{
+  display: flex;
+  gap: 0 20px;
+}
 
 
-.header {}
+/* styling header end */
