@@ -88,3 +88,32 @@ body {
 }
 
 /* styling header end */
+
+/* styling section top start */
+
+.top{
+  min-height: calc(100vh - 81px);
+  background-image: url(../images/top-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.title{
+  padding-top: 230px;
+  font-size: 96px;
+  margin-bottom: 10px;
+}
+
+.subtitle{
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.top__text{
+  font-size: 13px;
+}
+
+
+
+/* styling section top end */
