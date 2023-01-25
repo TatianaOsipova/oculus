@@ -44,7 +44,7 @@ body {
   color: #5c5c5e;
 }
 
-.container{
+.container {
   max-width: 1220px;
   padding: 0 10px;
   margin: 0 auto;
@@ -56,23 +56,24 @@ body {
   border-bottom: 1px solid #cacad6;
 }
 
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 80px;
 }
 
-.menu{
+.menu {
   display: flex;
   gap: 0 20px;
+  text-transform: uppercase;
 }
 
-.basket{
+.basket {
   position: relative;
 }
 
-.basket--on span{
+.basket--on span {
   font-size: 11px;
   width: 15px;
   height: 15px;
@@ -91,7 +92,7 @@ body {
 
 /* styling section top start */
 
-.top{
+.top {
   min-height: calc(100vh - 81px);
   background-image: url(../images/top-bg.jpg);
   background-repeat: no-repeat;
@@ -99,21 +100,45 @@ body {
   background-position: bottom center;
 }
 
-.title{
-  padding-top: 230px;
+.title {
+  padding-top: 16%;
   font-size: 96px;
   margin-bottom: 10px;
 }
 
-.subtitle{
+.subtitle {
   font-size: 36px;
   margin-bottom: 5px;
 }
 
-.top__text{
+.top__text {
   font-size: 13px;
+  margin-bottom: 50px;
 }
 
+.buy-btn {
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  display: flex;
+  padding: 0;
+  text-transform: uppercase;
+  padding: 1px;
+}
 
+.buy-btn__text {
+  color: #F6F4F5;
+  padding: 20px 110px;
+}
+
+.buy-btn__price {
+  background-color: #F6F4F5;
+  padding: 20px 105px;
+}
+
+.buy__text {
+  font-size: 13px;
+  padding-top: 6px;
+}
 
 /* styling section top end */
