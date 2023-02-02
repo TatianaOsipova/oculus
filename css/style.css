@@ -223,8 +223,6 @@ body {
   opacity: 0;
   position: absolute;
   transition: opacity .3s ease;
-
-
 }
 
 .tabs__content-item--active{
@@ -267,3 +265,32 @@ body {
 }
 
 /* styling section features end */
+
+/* styling sectin game start */
+
+.game {
+}
+.section-title {
+}
+.game__inner {
+}
+.game__descr {
+}
+.game__descr-title {
+}
+.game__desct-text {
+}
+.game__link {
+}
+.game__item {
+}
+.game__item-img {
+}
+.game__item-title {
+}
+.game__item-text {
+}
+.game__item-link {
+}
+
+/* styling sectin game end */
