@@ -276,12 +276,9 @@ body {
   margin-bottom: 50px;
 }
 
-.section-title {}
-
 .game__inner {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
 }
 
 .game__descr {
