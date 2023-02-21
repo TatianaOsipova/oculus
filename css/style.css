@@ -493,7 +493,7 @@ body {
   border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .accessories__item-img {
@@ -532,3 +532,25 @@ body {
 }
 
 /* styling section accessories end */
+
+/* styling section contacts start */
+
+.contacts {}
+
+.contacts__title {}
+
+.contacts__inner {}
+
+.contacts__form {}
+
+.form {}
+
+.form__input {}
+
+.form__btn {}
+
+.contacts__text {}
+
+.contacts__email {}
+
+/* styling section contacts end */
