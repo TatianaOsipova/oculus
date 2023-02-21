@@ -439,6 +439,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  position: relative;
 }
 
 .promo__btn {
@@ -451,9 +452,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
-
 
 /* styling promo end */
