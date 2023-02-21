@@ -306,7 +306,8 @@ body {
   width: 225px;
   text-align: center;
   text-transform: uppercase;
-  border: 1px solid #BC10D8;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
   background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -315,7 +316,8 @@ body {
 }
 
 .game__item {
-  border: 1px solid #BC10D8;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
   padding: 10px 20px 18px;
   display: flex;
   flex-direction: column;
@@ -420,7 +422,7 @@ body {
   text-transform: uppercase;
 }
 
-.equipment__box-item--one{
+.equipment__box-item--one {
   grid-row: 1/-1;
 }
 
@@ -429,10 +431,10 @@ body {
 /* styling promo start */
 
 .promo {
-  margin-bottom: 100px;  
+  margin-bottom: 100px;
 }
 
-.promo__inner{
+.promo__inner {
   background-image: url(../images/promo.jpg);
   min-height: 500px;
   background-size: cover;
@@ -464,28 +466,48 @@ body {
 /* styling section accessories start */
 
 .accessories {
-}
-.accessories__title {
-}
-.section-title {
-}
-.accessories__text {
-}
-.accessories__items {
-}
-.accessories__item {
-}
-.accessories__item-img {
-}
-.accessories__item-title {
-}
-.accessories__item-text {
-}
-.accessories__item-price {
-}
-.accessories__item-btn {
+  margin-bottom: 100px;
 }
 
+.accessories__title {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  
+}
+
+.accessories__text {
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  text-transform: uppercase;
+}
+
+.accessories__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+ 
+}
+
+.accessories__item {
+  padding: 20px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+
+}
+
+.accessories__item-img {}
+
+.accessories__item-title {}
+
+.accessories__item-text {}
+
+.accessories__item-price {}
+
+.accessories__item-btn {}
 
 /* styling section accessories end */
-
