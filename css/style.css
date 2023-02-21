@@ -428,4 +428,13 @@ body {
 
 /* styling promo start */
 
+.promo {
+  margin-bottom: 100px;
+  background-image: url(../images/promo.jpg);
+  
+}
+.promo__btn {
+}
+
+
 /* styling promo end */
