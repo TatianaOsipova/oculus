@@ -266,26 +266,26 @@ body {
 
 /* styling section features end */
 
-/* styling sectin game start */
+/* styling sectin gamess start */
 
-.game {
+.games {
   margin-bottom: 100px;
 }
 
-.game__title {
+.games__title {
   margin-bottom: 50px;
 }
 
-.game__inner {
+.games__inner {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
-.game__descr {
+.games__descr {
   padding-right: 10px;
 }
 
-.game__descr-title {
+.games__descr-title {
   font-size: 36px;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -296,11 +296,11 @@ body {
   text-fill-color: transparent;
 }
 
-.game__desct-text {
+.games__desct-text {
   margin-bottom: 24px;
 }
 
-.game__link {
+.games__link {
   display: inline-block;
   padding: 16px 15px 12px;
   width: 225px;
@@ -315,7 +315,7 @@ body {
   text-fill-color: transparent;
 }
 
-.game__item {
+.games__item {
   border: 1px solid;
   border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
   padding: 10px 20px 18px;
@@ -323,20 +323,20 @@ body {
   flex-direction: column;
 }
 
-.game__item-img {
+.games__item-img {
   margin-bottom: 10px;
 }
 
-.game__item-title {
+.games__item-title {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.game__item-text {
+.games__item-text {
   margin-bottom: 30px;
 }
 
-.game__item-link {
+.games__item-link {
   margin-top: auto;
   background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
   -webkit-background-clip: text;
@@ -345,7 +345,7 @@ body {
   text-fill-color: transparent;
 }
 
-/* styling sectin game end */
+/* styling sectin games end */
 
 /* styling buy start */
 
