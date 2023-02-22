@@ -535,22 +535,62 @@ body {
 
 /* styling section contacts start */
 
-.contacts {}
+.contacts {
+  margin-bottom: 100px;
+}
 
-.contacts__title {}
+.contacts__title {
+  font-size: 24px;
+  line-height: 33px;
+  color: #070707;
+  margin-bottom: 10px;
+}
 
-.contacts__inner {}
+.contacts__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
 
-.contacts__form {}
+.contacts__form {
+  flex-basis: 600px;  
+}
 
-.form {}
+.contacts__text {
+  font-size: 13px;
+}
 
-.form__input {}
+.form {
+  margin-bottom: 10px;
+  position: relative;    
+}
 
-.form__btn {}
+.form__input {
+  border: none;
+  border-bottom: 1px solid #cacad6;
+  padding: 22px 70px 22px 0;
+}
 
-.contacts__text {}
+.form__input::placeholder{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #cacad6;
+}
 
-.contacts__email {}
+.form__btn {
+  width: 50px;
+  height: 50px;
+  background-color: #cacad6;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #5c5c5e;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+}
 
 /* styling section contacts end */
