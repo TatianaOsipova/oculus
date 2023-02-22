@@ -598,23 +598,21 @@ body {
 /* styling footer start */
 
 .footer {
-}
-.nav {
-}
-.menu {
-}
-.menu__list {
-}
-.menu__link {
-}
-.logo {
-}
-.social {
-}
-.social__item {
-}
-.social__link {
+  border-top: 1px solid #cacad6;
+  border-bottom: 1px solid #cacad6;
+  margin-bottom: 44px;
+  padding: 30px 0;
 }
 
+.social {
+  display: flex;
+  justify-content: end;
+}
+
+.social__item {
+  display: flex;
+  justify-self: end;
+  gap: 20px;
+}
 
 /* styling footer end */
