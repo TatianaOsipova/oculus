@@ -553,7 +553,7 @@ body {
 }
 
 .contacts__form {
-  flex-basis: 600px;  
+  flex-basis: 600px;
 }
 
 .contacts__text {
@@ -562,16 +562,18 @@ body {
 
 .form {
   margin-bottom: 10px;
-  position: relative;    
+  position: relative; 
 }
 
 .form__input {
   border: none;
   border-bottom: 1px solid #cacad6;
   padding: 22px 70px 22px 0;
+  width: 600px;
+
 }
 
-.form__input::placeholder{
+.form__input::placeholder {
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;
@@ -606,7 +608,7 @@ body {
 
 .social {
   display: flex;
-  justify-content: end;
+  justify-self: end;
 }
 
 .social__item {
