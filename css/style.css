@@ -563,7 +563,7 @@ body {
 
 .form {
   margin-bottom: 10px;
-  position: relative; 
+  position: relative;
 }
 
 .form__input {
@@ -627,13 +627,18 @@ body {
     display: block;
   }
 
-  .tabs__btn{
+  .tabs__btn {
     display: block;
     column-count: 2;
   }
 
-  .tabs__btn-item{
+  .tabs__btn-item {
     display: block;
+  }
+
+  .games__inner{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
   }
 }
 
@@ -642,19 +647,39 @@ body {
     font-size: 66px;
   }
 
-  .subtitle{
+  .subtitle {
     font-size: 24px;
   }
 }
 
-@media (max-width: 568px) {
-  .buy-btn{
+@media (max-width: 640px){
+  .buy-btn {
     flex-direction: column;
     margin: 0 auto;
   }
 
-  .top{
-    text-align: center;    
+  .top {
+    text-align: center;
+  }
+}
+
+@media (max-width: 568px) {
+  .features__titles {
+    display: block;
+  }
+
+  .tabs__content-item {
+    display: block;
+  }
+
+  .video {
+    width: auto;
+    height: 250px;
+    margin-top: 20px;
+  }
+
+  .games__inner{
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -663,7 +688,15 @@ body {
     font-size: 48px;
   }
 
-  .subtitle{
+  .subtitle {
     font-size: 20px;
+  }
+
+  .tabs__btn {
+    column-count: 1;
+  }
+
+  .features__text {
+    font-size: 32px;
   }
 }
