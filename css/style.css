@@ -620,3 +620,35 @@ body {
 /* styling footer end */
 
 /* adaptive start */
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 66px;
+  }
+
+  .subtitle{
+    font-size: 24px;
+  }
+
+}
+
+@media (max-width: 568px) {
+  .title {
+    font-size: 66px;
+  }
+
+  .subtitle{
+    font-size: 24px;
+  }
+
+  .buy-btn{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .top{
+    text-align: center;
+    
+  }
+
+}
